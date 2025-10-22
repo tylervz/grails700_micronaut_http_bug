@@ -39,7 +39,11 @@ dependencies {
     testAndDevelopmentOnly "org.webjars.npm:bootstrap"
     testAndDevelopmentOnly "org.webjars.npm:bootstrap-icons"
     testAndDevelopmentOnly "org.webjars.npm:jquery"
-    implementation "io.micronaut:micronaut-http-client"
+    // For micronaut support
+    implementation 'org.apache.grails:grails-micronaut'
+    compileOnly 'io.micronaut:micronaut-inject-groovy'
+    implementation("io.micronaut:micronaut-http-client-jdk")
+    implementation "io.micronaut:micronaut-jackson-databind"
     implementation platform("io.micronaut.platform:micronaut-platform:$micronautPlatformVersion")
     implementation "io.micronaut.serde:micronaut-serde-jackson"
     implementation platform("org.apache.grails:grails-bom:$grailsVersion")
