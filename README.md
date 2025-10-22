@@ -1,9 +1,13 @@
-## Grails 7.0.0 Documentation
+## Grails 7.0.0 Micronaut Http Client bug
 
-- [User Guide](https://grails.apache.org/docs/7.0.0/guide/index.html)
-- [API Reference](https://grails.apache.org/docs/7.0.0/api/index.html)
-- [Grails Guides](https://guides.grails.org/index.html)
----
+This sample Grails 7.0.0 application was created to demonstrate an issue with dependency constraints in Grails 7.0.0 applications with the Micronaut HTTP Client feature.
+
+This Grails 7.0.0 application was created from [Grails Forge](https://start.grails.org/) with the following settings:
+- Java 17
+- Gorm Hibernate5
+- Embedded Servlet Container: Spring Boot Starter Tomcat
+- Test Framework: Spock
+- Additional Selected Features: Micronaut HTTP Client
 
 ## Feature geb-with-testcontainers documentation
 
