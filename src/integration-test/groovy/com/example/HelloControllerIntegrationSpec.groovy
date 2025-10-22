@@ -18,7 +18,7 @@ class HelloControllerIntegrationSpec extends Specification {
     HttpClient client
 
     @OnceBefore
-    void init() { 
+    void init() {
         // serverPort is automatically injected
         String baseUrl = "http://localhost:$serverPort"
         this.client  = HttpClient.create(baseUrl.toURL())
