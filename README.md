@@ -75,7 +75,7 @@ Clone this repository and run the integration tests on the `master` branch.
 I was able to get the test passing on the `fix` branch of this repository by downgrading the Micronaut platform version, specified in `gradle.properties`, to `4.7.6` which is compatible with Netty 4.1.x.
 Micronaut platforms 4.8+ moved to Netty 4.2.x.
 
-Following [the advice of @matrei](https://github.com/apache/grails-core/issues/15149#issuecomment-3415944420,
+Following [the advice of @matrei](https://github.com/apache/grails-core/issues/15149#issuecomment-3415944420),
 I was able to get the test passing on the `fix2` branch of this repository using a different approach of using the `micronaut-http-client-jdk` dependency instead of the `micronaut-http-client` dependency.
 
 ## Environment Information
